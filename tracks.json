@@ -1,0 +1,1511 @@
+{
+  "musicFiles": {
+    "S-STYLE - 蓬莱伝説 -twilight style-": "S-STYLE - 蓬莱伝説 -twilight style-.mp3",
+    "EastNewSound - きりん - ひとしずく": "きりん - ひとしずく.mp3",
+    "sound sepher - 不思议の国のアリス": "sound sepher - 不思议の国のアリス.mp3",
+    "EastNewSound - asterisk": "EastNewSound - asterisk.mp3",
+    "PHOENIX Project - Conclusion": "PHOENIX Project - Conclusion.mp3",
+    "森の民やむぅ - Satori March": "森の民やむぅ - Satori March.mp3"
+  },
+  "unitWeight": {
+    "AlliedScoutInfantry": 200,
+    "AlliedAntiInfantryInfantry": 200,
+    "AlliedAntiVehicleInfantry": 300,
+    "AlliedEngineer": 500,
+    "AlliedInfiltrationInfantry": 1000,
+    "AlliedCommandoTech1": 2000,
+    "AlliedMiner": 1000,
+    "AlliedAntiInfantryVehicle": 750,
+    "AlliedAntiAirVehicleTech1": 800,
+    "AlliedAntiVehicleVehicleTech1": 950,
+    "AlliedAntiStructureVehicle": 1400,
+    "AlliedAntiVehicleVehicleTech3": 1600,
+    "AlliedMCV": 5000,
+    "AlliedAntiGroundAircraft": 1200,
+    "AlliedFighterAircraft": 1000,
+    "AlliedSupportAircraft": 1600,
+    "AlliedBomberAircraft": 2000,
+    "AlliedSupersonicBomber": 5000,
+    "AlliedAntiNavalScout": 750,
+    "AlliedAntiAirShip": 900,
+    "AlliedAntiNavyShipTech1": 1500,
+    "AlliedAntiStructureShip": 2000,
+    "AlliedConstructionYard": 5000,
+    "AlliedOutPost": 1000,
+    "AlliedPowerPlant": 800,
+    "AlliedBarracks": 500,
+    "AlliedRefinery": 2000,
+    "AlliedWarFactory": 2000,
+    "AlliedNavalYard": 1000,
+    "AlliedAirfield": 1000,
+    "AlliedTechStructure": 750,
+    "AlliedWallPiece": 10,
+    "AlliedWallSegmentPiece": 10,
+    "AlliedBaseDefense": 800,
+    "AlliedBaseDefenseAdvanced": 120,
+    "AlliedSuperWeapon": 1500,
+    "AlliedSuperWeaponAdvanced": 2500
+  },
+  "fsmConfig": {
+    "interval": 20,
+    "fightThreshold": 120,
+    "advantageThreshold": 2.7,
+    "disadvantageThreshold": 2.5
+  },
+  "tracks": [
+    {
+      "id": "和平",
+      "musicId": "S-STYLE - 蓬莱伝説 -twilight style-",
+      "startOffset": 0,
+      "length": 273554,
+      "beatsPerMinutes": 0,
+      "beatsPerBar": 0,
+      "checkPoints": [
+        {
+          "time": 0,
+          "defaultDestinations": [
+            {
+              "jumpTo": [
+                {
+                  "targetTrackId": "和平",
+                  "targetOffset": 21000,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 0,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 6000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 60000,
+          "destinations": [
+            {
+              "condition": "state == \"TinyFight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 12000,
+          "destinations": [
+            {
+              "condition": "state == \"TinyFight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 2000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 137000,
+          "destinations": [
+            {
+              "condition": "state == \"TinyFight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 161500,
+          "destinations": [
+            {
+              "condition": "state == \"TinyFight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 1000,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 27000,
+          "destinations": [
+            {
+              "condition": "state == \"TinyFight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 1000,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 249600,
+          "destinations": [
+            {
+              "condition": "state == \"TinyFight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 1000,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 270000,
+          "destinations": [
+            {
+              "condition": "state == \"TinyFight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 1000,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ],
+          "defaultDestinations": [
+            {
+              "jumpTo": [
+                {
+                  "targetTrackId": "和平",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 1000,
+                  "fadeOutDuration": 1000,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "defaultCheckPoints": [
+        {
+          "condition": "state == \"Fight\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "战斗或优势",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 2000,
+              "targetFadeInDelay": 1000,
+              "targetFadeInDuration": 0
+            },
+            {
+              "targetTrackId": "战斗或劣势",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 1500,
+              "targetFadeInDelay": 500,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"Disadvantage\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "战斗或劣势",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 1500,
+              "targetFadeInDelay": 500,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"Advantage\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "战斗或优势",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 2000,
+              "targetFadeInDelay": 1000,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"PostGameDefeat\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "结束",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"MenuTrack\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "主菜单X",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"PostGameVictory\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "结束",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "结束",
+      "musicId": "PHOENIX Project - Conclusion",
+      "startOffset": 0,
+      "length": 318243,
+      "beatsPerMinutes": 0,
+      "beatsPerBar": 0,
+      "checkPoints": [
+        {
+          "time": 0,
+          "defaultDestinations": [
+            {
+              "jumpTo": [
+                {
+                  "targetTrackId": "结束",
+                  "targetOffset": 31500,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 0,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 2000
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "defaultCheckPoints": [
+        {
+          "condition": "state == \"Peace\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "和平",
+              "targetOffset": 0,
+              "fadeOutDelay": 500,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "战斗",
+      "musicId": "EastNewSound - きりん - ひとしずく",
+      "startOffset": 0,
+      "length": 421251,
+      "beatsPerMinutes": 0,
+      "beatsPerBar": 0,
+      "checkPoints": [
+        {
+          "time": 12900,
+          "destinations": [
+            {
+              "condition": "state == \"Fight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 12900,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 1000
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Disadvantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 400,
+                  "fadeOutDelay": 300,
+                  "fadeOutDuration": 300,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Advantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 12900,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 1000
+                }
+              ]
+            }
+          ],
+          "defaultDestinations": [
+            {
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 51400,
+                  "fadeOutDelay": 300,
+                  "fadeOutDuration": 0,
+                  "targetFadeInDelay": 100,
+                  "targetFadeInDuration": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 114600,
+          "destinations": [
+            {
+              "condition": "state == \"Fight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 114600,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 1000
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Disadvantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 600,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Advantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 114600,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 1000
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Peace\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "和平",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 1000,
+                  "targetFadeInDelay": 2000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ],
+          "defaultDestinations": [
+            {
+              "jumpTo": [
+                {
+                  "targetTrackId": "和平",
+                  "targetOffset": 139000,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 1000,
+                  "targetFadeInDelay": 2000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 141000,
+                  "fadeOutDelay": 600,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 500,
+                  "targetFadeInDuration": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 166800,
+          "destinations": [
+            {
+              "condition": "state == \"Disadvantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 1000,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Peace\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "和平",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 1000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ],
+          "defaultDestinations": [
+            {
+              "jumpTo": [
+                {
+                  "targetTrackId": "和平",
+                  "targetOffset": 139000,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 1000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 23500,
+          "destinations": [
+            {
+              "condition": "state == \"Disadvantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 400,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"TinyFight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 51600,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 200,
+                  "targetFadeInDuration": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 256000,
+          "destinations": [
+            {
+              "condition": "state == \"Fight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或优势",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Disadvantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Advantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或优势",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Peace\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "和平",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"TinyFight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"PostGameDefeat\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "结束",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 0,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"MenuTrack\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "主菜单X",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 0,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"PostGameVictory\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "结束",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 0,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ],
+          "defaultDestinations": [
+            {
+              "jumpTo": [
+                {
+                  "targetTrackId": "和平",
+                  "targetOffset": 139000,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "战斗或劣势",
+      "musicId": "EastNewSound - asterisk",
+      "startOffset": 0,
+      "length": 345260,
+      "beatsPerMinutes": 0,
+      "beatsPerBar": 0,
+      "checkPoints": [
+        {
+          "time": 70100,
+          "destinations": [
+            {
+              "condition": "state == \"Peace\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 337800,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 400,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 139600,
+          "destinations": [
+            {
+              "condition": "state == \"Fight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 139600,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 700
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Disadvantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 139600,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 700
+                }
+              ]
+            }
+          ],
+          "defaultDestinations": [
+            {
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 337800,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 226400,
+          "destinations": [
+            {
+              "condition": "state == \"Fight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 226400,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 700
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Disadvantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 226400,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 700
+                }
+              ]
+            },
+            {
+              "condition": "state == \"TinyFight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 226400,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 700
+                }
+              ]
+            }
+          ],
+          "defaultDestinations": [
+            {
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 337800,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 500,
+                  "targetFadeInDuration": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 254300,
+          "destinations": [
+            {
+              "condition": "state == \"Fight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 254300,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 700
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Disadvantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 254300,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 700
+                }
+              ]
+            },
+            {
+              "condition": "state == \"TinyFight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 254300,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 700
+                }
+              ]
+            }
+          ],
+          "defaultDestinations": [
+            {
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 337800,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 500,
+                  "targetFadeInDuration": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 296100,
+          "destinations": [
+            {
+              "condition": "state == \"Peace\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 337800,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 342000,
+          "destinations": [
+            {
+              "condition": "state == \"Fight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或优势",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 1000,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Disadvantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Advantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或优势",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Peace\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "和平",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                },
+                {
+                  "targetTrackId": "和平",
+                  "targetOffset": 139000,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                },
+                {
+                  "targetTrackId": "和平",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 1000,
+                  "fadeOutDuration": 1000,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"TinyFight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "defaultCheckPoints": [
+        {
+          "condition": "state == \"PostGameDefeat\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "结束",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"MenuTrack\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "主菜单X",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"PostGameVictory\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "结束",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "战斗或优势",
+      "musicId": "sound sepher - 不思议の国のアリス",
+      "startOffset": 0,
+      "length": 269871,
+      "beatsPerMinutes": 0,
+      "beatsPerBar": 0,
+      "checkPoints": [
+        {
+          "time": 78500,
+          "destinations": [
+            {
+              "condition": "state == \"Fight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或优势",
+                  "targetOffset": 78500,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 700
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Advantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或优势",
+                  "targetOffset": 78500,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 700
+                }
+              ]
+            },
+            {
+              "condition": "state == \"TinyFight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或优势",
+                  "targetOffset": 78500,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 700
+                }
+              ]
+            }
+          ],
+          "defaultDestinations": [
+            {
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或优势",
+                  "targetOffset": 132500,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 500,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 144500,
+          "destinations": [
+            {
+              "condition": "state == \"Disadvantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Peace\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "和平",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 2000,
+                  "targetFadeInDelay": 3000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 167000,
+          "destinations": [
+            {
+              "condition": "state == \"Peace\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "和平",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 3000,
+                  "targetFadeInDelay": 2000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 214500,
+          "destinations": [
+            {
+              "condition": "state == \"Fight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或优势",
+                  "targetOffset": 26500,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 0,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 500
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Disadvantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 0,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Advantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或优势",
+                  "targetOffset": 26500,
+                  "fadeOutDelay": 500,
+                  "fadeOutDuration": 0,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": 241700,
+          "destinations": [
+            {
+              "condition": "state == \"Fight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或优势",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 3000,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Disadvantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或劣势",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 3000,
+                  "targetFadeInDelay": 1000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Advantage\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗或优势",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 3000,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"Peace\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "和平",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 3000,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            },
+            {
+              "condition": "state == \"TinyFight\"",
+              "jumpTo": [
+                {
+                  "targetTrackId": "战斗",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 3000,
+                  "targetFadeInDelay": 2000,
+                  "targetFadeInDuration": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "defaultCheckPoints": [
+        {
+          "condition": "state == \"PostGameDefeat\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "结束",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"MenuTrack\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "主菜单X",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"PostGameVictory\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "结束",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "主菜单",
+      "musicId": "森の民やむぅ - Satori March",
+      "startOffset": 0,
+      "length": 164075,
+      "beatsPerMinutes": 60,
+      "beatsPerBar": 4,
+      "checkPoints": [
+        {
+          "time": 0,
+          "jumpTo": [
+            {
+              "targetTrackId": "主菜单",
+              "targetOffset": 4000,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "time": 162000,
+          "jumpTo": [
+            {
+              "targetTrackId": "主菜单",
+              "targetOffset": 0,
+              "fadeOutDelay": 500,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        }
+      ],
+      "defaultCheckPoints": [
+        {
+          "condition": "state == \"Fight\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "战斗或优势",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            },
+            {
+              "targetTrackId": "战斗或劣势",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"Disadvantage\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "战斗或劣势",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"Advantage\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "战斗或优势",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"Peace\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "和平",
+              "targetOffset": 0,
+              "fadeOutDelay": 500,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"PostGameDefeat\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "结束",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"TinyFight\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "战斗",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"PostGameVictory\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "战斗",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "主菜单X",
+      "musicId": "森の民やむぅ - Satori March",
+      "startOffset": 0,
+      "length": 164075,
+      "beatsPerMinutes": 0,
+      "beatsPerBar": 0,
+      "checkPoints": [
+        {
+          "time": 0,
+          "jumpTo": [
+            {
+              "targetTrackId": "主菜单X",
+              "targetOffset": 162000,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "time": 164000,
+          "jumpTo": [
+            {
+              "targetTrackId": "主菜单",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        }
+      ],
+      "defaultCheckPoints": [
+        {
+          "condition": "state == \"PostGameDefeat\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "结束",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        },
+        {
+          "condition": "state == \"PostGameVictory\"",
+          "jumpTo": [
+            {
+              "targetTrackId": "结束",
+              "targetOffset": 0,
+              "fadeOutDelay": 0,
+              "fadeOutDuration": 0,
+              "targetFadeInDelay": 0,
+              "targetFadeInDuration": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
