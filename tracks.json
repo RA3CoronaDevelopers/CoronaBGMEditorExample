@@ -57,7 +57,7 @@
       "name": "和平",
       "musicId": "S-STYLE - 蓬莱伝説 -twilight style-",
       "startOffset": 0,
-      "length": 273554,
+      "length": 273.554,
       "beatsPerMinutes": 0,
       "beatsPerBar": 0,
       "checkPoints": [
@@ -68,18 +68,18 @@
               "jumpTo": [
                 {
                   "targetTrackId": "和平",
-                  "targetOffset": 21000,
+                  "targetOffset": 21,
                   "fadeOutDelay": 0,
                   "fadeOutDuration": 0,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 6000
+                  "targetFadeInDuration": 6
                 }
               ]
             }
           ]
         },
         {
-          "time": 60000,
+          "time": 60,
           "destinations": [
             {
               "condition": "state == \"TinyFight\"",
@@ -88,8 +88,8 @@
                   "targetTrackId": "战斗",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "time": 12000,
+          "time": 12,
           "destinations": [
             {
               "condition": "state == \"TinyFight\"",
@@ -106,8 +106,8 @@
                   "targetTrackId": "战斗",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 2000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 2,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -115,7 +115,7 @@
           ]
         },
         {
-          "time": 137000,
+          "time": 137,
           "destinations": [
             {
               "condition": "state == \"TinyFight\"",
@@ -124,8 +124,8 @@
                   "targetTrackId": "战斗",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -133,7 +133,7 @@
           ]
         },
         {
-          "time": 161500,
+          "time": 161.5,
           "destinations": [
             {
               "condition": "state == \"TinyFight\"",
@@ -142,7 +142,7 @@
                   "targetTrackId": "战斗",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 1000,
+                  "fadeOutDuration": 1,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -151,7 +151,7 @@
           ]
         },
         {
-          "time": 27000,
+          "time": 27,
           "destinations": [
             {
               "condition": "state == \"TinyFight\"",
@@ -160,7 +160,7 @@
                   "targetTrackId": "战斗",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 1000,
+                  "fadeOutDuration": 1,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -169,7 +169,7 @@
           ]
         },
         {
-          "time": 249600,
+          "time": 249.6,
           "destinations": [
             {
               "condition": "state == \"TinyFight\"",
@@ -178,7 +178,7 @@
                   "targetTrackId": "战斗",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 1000,
+                  "fadeOutDuration": 1,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -187,7 +187,7 @@
           ]
         },
         {
-          "time": 270000,
+          "time": 270,
           "destinations": [
             {
               "condition": "state == \"TinyFight\"",
@@ -196,7 +196,7 @@
                   "targetTrackId": "战斗",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 1000,
+                  "fadeOutDuration": 1,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -209,8 +209,8 @@
                 {
                   "targetTrackId": "和平",
                   "targetOffset": 0,
-                  "fadeOutDelay": 1000,
-                  "fadeOutDuration": 1000,
+                  "fadeOutDelay": 1,
+                  "fadeOutDuration": 1,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -227,16 +227,16 @@
               "targetTrackId": "战斗或优势",
               "targetOffset": 0,
               "fadeOutDelay": 0,
-              "fadeOutDuration": 2000,
-              "targetFadeInDelay": 1000,
+              "fadeOutDuration": 2,
+              "targetFadeInDelay": 1,
               "targetFadeInDuration": 0
             },
             {
               "targetTrackId": "战斗或劣势",
               "targetOffset": 0,
               "fadeOutDelay": 0,
-              "fadeOutDuration": 1500,
-              "targetFadeInDelay": 500,
+              "fadeOutDuration": 1.5,
+              "targetFadeInDelay": 0.5,
               "targetFadeInDuration": 0
             }
           ]
@@ -248,8 +248,8 @@
               "targetTrackId": "战斗或劣势",
               "targetOffset": 0,
               "fadeOutDelay": 0,
-              "fadeOutDuration": 1500,
-              "targetFadeInDelay": 500,
+              "fadeOutDuration": 1.5,
+              "targetFadeInDelay": 0.5,
               "targetFadeInDuration": 0
             }
           ]
@@ -261,8 +261,8 @@
               "targetTrackId": "战斗或优势",
               "targetOffset": 0,
               "fadeOutDelay": 0,
-              "fadeOutDuration": 2000,
-              "targetFadeInDelay": 1000,
+              "fadeOutDuration": 2,
+              "targetFadeInDelay": 1,
               "targetFadeInDuration": 0
             }
           ]
@@ -312,7 +312,7 @@
       "name": "结束",
       "musicId": "PHOENIX Project - Conclusion",
       "startOffset": 0,
-      "length": 318243,
+      "length": 318.243,
       "beatsPerMinutes": 0,
       "beatsPerBar": 0,
       "checkPoints": [
@@ -323,11 +323,11 @@
               "jumpTo": [
                 {
                   "targetTrackId": "结束",
-                  "targetOffset": 31500,
+                  "targetOffset": 31.5,
                   "fadeOutDelay": 0,
                   "fadeOutDuration": 0,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 2000
+                  "targetFadeInDuration": 2
                 }
               ]
             }
@@ -341,7 +341,7 @@
             {
               "targetTrackId": "和平",
               "targetOffset": 0,
-              "fadeOutDelay": 500,
+              "fadeOutDelay": 0.5,
               "fadeOutDuration": 0,
               "targetFadeInDelay": 0,
               "targetFadeInDuration": 0
@@ -354,23 +354,23 @@
       "name": "战斗",
       "musicId": "EastNewSound - きりん - ひとしずく",
       "startOffset": 0,
-      "length": 421251,
+      "length": 421.251,
       "beatsPerMinutes": 0,
       "beatsPerBar": 0,
       "checkPoints": [
         {
-          "time": 12900,
+          "time": 12.9,
           "destinations": [
             {
               "condition": "state == \"Fight\"",
               "jumpTo": [
                 {
                   "targetTrackId": "战斗",
-                  "targetOffset": 12900,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 12.9,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 1000
+                  "targetFadeInDuration": 1
                 }
               ]
             },
@@ -379,9 +379,9 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 400,
-                  "fadeOutDelay": 300,
-                  "fadeOutDuration": 300,
+                  "targetOffset": 0.4,
+                  "fadeOutDelay": 0.3,
+                  "fadeOutDuration": 0.3,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -392,11 +392,11 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗",
-                  "targetOffset": 12900,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 12.9,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 1000
+                  "targetFadeInDuration": 1
                 }
               ]
             }
@@ -406,29 +406,29 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗",
-                  "targetOffset": 51400,
-                  "fadeOutDelay": 300,
+                  "targetOffset": 51.4,
+                  "fadeOutDelay": 0.3,
                   "fadeOutDuration": 0,
-                  "targetFadeInDelay": 100,
-                  "targetFadeInDuration": 600
+                  "targetFadeInDelay": 0.1,
+                  "targetFadeInDuration": 0.6
                 }
               ]
             }
           ]
         },
         {
-          "time": 114600,
+          "time": 114.6,
           "destinations": [
             {
               "condition": "state == \"Fight\"",
               "jumpTo": [
                 {
                   "targetTrackId": "战斗",
-                  "targetOffset": 114600,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 114.6,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 1000
+                  "targetFadeInDuration": 1
                 }
               ]
             },
@@ -438,8 +438,8 @@
                 {
                   "targetTrackId": "战斗或劣势",
                   "targetOffset": 0,
-                  "fadeOutDelay": 600,
-                  "fadeOutDuration": 500,
+                  "fadeOutDelay": 0.6,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -450,11 +450,11 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗",
-                  "targetOffset": 114600,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 114.6,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 1000
+                  "targetFadeInDuration": 1
                 }
               ]
             },
@@ -464,9 +464,9 @@
                 {
                   "targetTrackId": "和平",
                   "targetOffset": 0,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 1000,
-                  "targetFadeInDelay": 2000,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 1,
+                  "targetFadeInDelay": 2,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -477,10 +477,10 @@
               "jumpTo": [
                 {
                   "targetTrackId": "和平",
-                  "targetOffset": 139000,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 1000,
-                  "targetFadeInDelay": 2000,
+                  "targetOffset": 139,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 1,
+                  "targetFadeInDelay": 2,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -489,18 +489,18 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗",
-                  "targetOffset": 141000,
-                  "fadeOutDelay": 600,
-                  "fadeOutDuration": 500,
-                  "targetFadeInDelay": 500,
-                  "targetFadeInDuration": 600
+                  "targetOffset": 141,
+                  "fadeOutDelay": 0.6,
+                  "fadeOutDuration": 0.5,
+                  "targetFadeInDelay": 0.5,
+                  "targetFadeInDuration": 0.6
                 }
               ]
             }
           ]
         },
         {
-          "time": 166800,
+          "time": 166.8,
           "destinations": [
             {
               "condition": "state == \"Disadvantage\"",
@@ -509,7 +509,7 @@
                   "targetTrackId": "战斗或劣势",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 1000,
+                  "fadeOutDuration": 1,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -522,8 +522,8 @@
                   "targetTrackId": "和平",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 1000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 1,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -534,10 +534,10 @@
               "jumpTo": [
                 {
                   "targetTrackId": "和平",
-                  "targetOffset": 139000,
+                  "targetOffset": 139,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 1000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 1,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -545,16 +545,16 @@
           ]
         },
         {
-          "time": 23500,
+          "time": 23.5,
           "destinations": [
             {
               "condition": "state == \"Disadvantage\"",
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 400,
+                  "targetOffset": 0.4,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 500,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -565,18 +565,18 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗",
-                  "targetOffset": 51600,
+                  "targetOffset": 51.6,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 500,
-                  "targetFadeInDelay": 200,
-                  "targetFadeInDuration": 600
+                  "fadeOutDuration": 0.5,
+                  "targetFadeInDelay": 0.2,
+                  "targetFadeInDuration": 0.6
                 }
               ]
             }
           ]
         },
         {
-          "time": 256000,
+          "time": 256,
           "destinations": [
             {
               "condition": "state == \"Fight\"",
@@ -585,8 +585,8 @@
                   "targetTrackId": "战斗或优势",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -598,8 +598,8 @@
                   "targetTrackId": "战斗或劣势",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -611,8 +611,8 @@
                   "targetTrackId": "战斗或优势",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -624,8 +624,8 @@
                   "targetTrackId": "和平",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -637,8 +637,8 @@
                   "targetTrackId": "战斗",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -688,10 +688,10 @@
               "jumpTo": [
                 {
                   "targetTrackId": "和平",
-                  "targetOffset": 139000,
+                  "targetOffset": 139,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -704,41 +704,41 @@
       "name": "战斗或劣势",
       "musicId": "EastNewSound - asterisk",
       "startOffset": 0,
-      "length": 345260,
+      "length": 345.26,
       "beatsPerMinutes": 0,
       "beatsPerBar": 0,
       "checkPoints": [
         {
-          "time": 70100,
+          "time": 70.1,
           "destinations": [
             {
               "condition": "state == \"Peace\"",
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 337800,
+                  "targetOffset": 337.8,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 400,
+                  "fadeOutDuration": 0.4,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 200
+                  "targetFadeInDuration": 0.2
                 }
               ]
             }
           ]
         },
         {
-          "time": 139600,
+          "time": 139.6,
           "destinations": [
             {
               "condition": "state == \"Fight\"",
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 139600,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 139.6,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 700
+                  "targetFadeInDuration": 0.7
                 }
               ]
             },
@@ -747,11 +747,11 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 139600,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 139.6,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 700
+                  "targetFadeInDuration": 0.7
                 }
               ]
             }
@@ -761,29 +761,29 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 337800,
+                  "targetOffset": 337.8,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 500,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 200
+                  "targetFadeInDuration": 0.2
                 }
               ]
             }
           ]
         },
         {
-          "time": 226400,
+          "time": 226.4,
           "destinations": [
             {
               "condition": "state == \"Fight\"",
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 226400,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 226.4,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 700
+                  "targetFadeInDuration": 0.7
                 }
               ]
             },
@@ -792,11 +792,11 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 226400,
+                  "targetOffset": 226.4,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 500,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 700
+                  "targetFadeInDuration": 0.7
                 }
               ]
             },
@@ -805,11 +805,11 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 226400,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 226.4,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 700
+                  "targetFadeInDuration": 0.7
                 }
               ]
             }
@@ -819,29 +819,29 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 337800,
+                  "targetOffset": 337.8,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 500,
-                  "targetFadeInDelay": 500,
-                  "targetFadeInDuration": 200
+                  "fadeOutDuration": 0.5,
+                  "targetFadeInDelay": 0.5,
+                  "targetFadeInDuration": 0.2
                 }
               ]
             }
           ]
         },
         {
-          "time": 254300,
+          "time": 254.3,
           "destinations": [
             {
               "condition": "state == \"Fight\"",
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 254300,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 254.3,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 700
+                  "targetFadeInDuration": 0.7
                 }
               ]
             },
@@ -850,11 +850,11 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 254300,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 254.3,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 700
+                  "targetFadeInDuration": 0.7
                 }
               ]
             },
@@ -863,11 +863,11 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 254300,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 254.3,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 700
+                  "targetFadeInDuration": 0.7
                 }
               ]
             }
@@ -877,36 +877,36 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 337800,
+                  "targetOffset": 337.8,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 500,
-                  "targetFadeInDelay": 500,
-                  "targetFadeInDuration": 200
+                  "fadeOutDuration": 0.5,
+                  "targetFadeInDelay": 0.5,
+                  "targetFadeInDuration": 0.2
                 }
               ]
             }
           ]
         },
         {
-          "time": 296100,
+          "time": 296.1,
           "destinations": [
             {
               "condition": "state == \"Peace\"",
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或劣势",
-                  "targetOffset": 337800,
+                  "targetOffset": 337.8,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 500,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 200
+                  "targetFadeInDuration": 0.2
                 }
               ]
             }
           ]
         },
         {
-          "time": 342000,
+          "time": 342,
           "destinations": [
             {
               "condition": "state == \"Fight\"",
@@ -915,7 +915,7 @@
                   "targetTrackId": "战斗或优势",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 1000,
+                  "fadeOutDuration": 1,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -928,8 +928,8 @@
                   "targetTrackId": "战斗或劣势",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -941,8 +941,8 @@
                   "targetTrackId": "战斗或优势",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -954,23 +954,23 @@
                   "targetTrackId": "和平",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 },
                 {
                   "targetTrackId": "和平",
-                  "targetOffset": 139000,
+                  "targetOffset": 139,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 },
                 {
                   "targetTrackId": "和平",
                   "targetOffset": 0,
-                  "fadeOutDelay": 1000,
-                  "fadeOutDuration": 1000,
+                  "fadeOutDelay": 1,
+                  "fadeOutDuration": 1,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -983,8 +983,8 @@
                   "targetTrackId": "战斗",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -1038,23 +1038,23 @@
       "name": "战斗或优势",
       "musicId": "sound sepher - 不思议の国のアリス",
       "startOffset": 0,
-      "length": 269871,
+      "length": 269.871,
       "beatsPerMinutes": 0,
       "beatsPerBar": 0,
       "checkPoints": [
         {
-          "time": 78500,
+          "time": 78.5,
           "destinations": [
             {
               "condition": "state == \"Fight\"",
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或优势",
-                  "targetOffset": 78500,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 78.5,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 700
+                  "targetFadeInDuration": 0.7
                 }
               ]
             },
@@ -1063,11 +1063,11 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或优势",
-                  "targetOffset": 78500,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 78.5,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 700
+                  "targetFadeInDuration": 0.7
                 }
               ]
             },
@@ -1076,11 +1076,11 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或优势",
-                  "targetOffset": 78500,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 78.5,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 700
+                  "targetFadeInDuration": 0.7
                 }
               ]
             }
@@ -1090,9 +1090,9 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或优势",
-                  "targetOffset": 132500,
-                  "fadeOutDelay": 500,
-                  "fadeOutDuration": 500,
+                  "targetOffset": 132.5,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0.5,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -1101,7 +1101,7 @@
           ]
         },
         {
-          "time": 144500,
+          "time": 144.5,
           "destinations": [
             {
               "condition": "state == \"Disadvantage\"",
@@ -1110,8 +1110,8 @@
                   "targetTrackId": "战斗或劣势",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -1123,8 +1123,8 @@
                   "targetTrackId": "和平",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 2000,
-                  "targetFadeInDelay": 3000,
+                  "fadeOutDuration": 2,
+                  "targetFadeInDelay": 3,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -1132,7 +1132,7 @@
           ]
         },
         {
-          "time": 167000,
+          "time": 167,
           "destinations": [
             {
               "condition": "state == \"Peace\"",
@@ -1141,8 +1141,8 @@
                   "targetTrackId": "和平",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 3000,
-                  "targetFadeInDelay": 2000,
+                  "fadeOutDuration": 3,
+                  "targetFadeInDelay": 2,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -1150,18 +1150,18 @@
           ]
         },
         {
-          "time": 214500,
+          "time": 214.5,
           "destinations": [
             {
               "condition": "state == \"Fight\"",
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或优势",
-                  "targetOffset": 26500,
-                  "fadeOutDelay": 500,
+                  "targetOffset": 26.5,
+                  "fadeOutDelay": 0.5,
                   "fadeOutDuration": 0,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 500
+                  "targetFadeInDuration": 0.5
                 }
               ]
             },
@@ -1171,7 +1171,7 @@
                 {
                   "targetTrackId": "战斗或劣势",
                   "targetOffset": 0,
-                  "fadeOutDelay": 500,
+                  "fadeOutDelay": 0.5,
                   "fadeOutDuration": 0,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
@@ -1183,18 +1183,18 @@
               "jumpTo": [
                 {
                   "targetTrackId": "战斗或优势",
-                  "targetOffset": 26500,
-                  "fadeOutDelay": 500,
+                  "targetOffset": 26.5,
+                  "fadeOutDelay": 0.5,
                   "fadeOutDuration": 0,
                   "targetFadeInDelay": 0,
-                  "targetFadeInDuration": 500
+                  "targetFadeInDuration": 0.5
                 }
               ]
             }
           ]
         },
         {
-          "time": 241700,
+          "time": 241.7,
           "destinations": [
             {
               "condition": "state == \"Fight\"",
@@ -1203,7 +1203,7 @@
                   "targetTrackId": "战斗或优势",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 3000,
+                  "fadeOutDuration": 3,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -1216,8 +1216,8 @@
                   "targetTrackId": "战斗或劣势",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 3000,
-                  "targetFadeInDelay": 1000,
+                  "fadeOutDuration": 3,
+                  "targetFadeInDelay": 1,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -1229,7 +1229,7 @@
                   "targetTrackId": "战斗或优势",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 3000,
+                  "fadeOutDuration": 3,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -1242,7 +1242,7 @@
                   "targetTrackId": "和平",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 3000,
+                  "fadeOutDuration": 3,
                   "targetFadeInDelay": 0,
                   "targetFadeInDuration": 0
                 }
@@ -1255,8 +1255,8 @@
                   "targetTrackId": "战斗",
                   "targetOffset": 0,
                   "fadeOutDelay": 0,
-                  "fadeOutDuration": 3000,
-                  "targetFadeInDelay": 2000,
+                  "fadeOutDuration": 3,
+                  "targetFadeInDelay": 2,
                   "targetFadeInDuration": 0
                 }
               ]
@@ -1310,7 +1310,7 @@
       "name": "主菜单",
       "musicId": "森の民やむぅ - Satori March",
       "startOffset": 0,
-      "length": 164075,
+      "length": 164.075,
       "beatsPerMinutes": 60,
       "beatsPerBar": 4,
       "checkPoints": [
@@ -1319,7 +1319,7 @@
           "jumpTo": [
             {
               "targetTrackId": "主菜单",
-              "targetOffset": 4000,
+              "targetOffset": 4,
               "fadeOutDelay": 0,
               "fadeOutDuration": 0,
               "targetFadeInDelay": 0,
@@ -1328,12 +1328,12 @@
           ]
         },
         {
-          "time": 162000,
+          "time": 162,
           "jumpTo": [
             {
               "targetTrackId": "主菜单",
               "targetOffset": 0,
-              "fadeOutDelay": 500,
+              "fadeOutDelay": 0.5,
               "fadeOutDuration": 0,
               "targetFadeInDelay": 0,
               "targetFadeInDuration": 0
@@ -1395,7 +1395,7 @@
             {
               "targetTrackId": "和平",
               "targetOffset": 0,
-              "fadeOutDelay": 500,
+              "fadeOutDelay": 0.5,
               "fadeOutDuration": 0,
               "targetFadeInDelay": 0,
               "targetFadeInDuration": 0
@@ -1447,7 +1447,7 @@
       "name": "主菜单X",
       "musicId": "森の民やむぅ - Satori March",
       "startOffset": 0,
-      "length": 164075,
+      "length": 164.075,
       "beatsPerMinutes": 0,
       "beatsPerBar": 0,
       "checkPoints": [
@@ -1456,7 +1456,7 @@
           "jumpTo": [
             {
               "targetTrackId": "主菜单X",
-              "targetOffset": 162000,
+              "targetOffset": 162,
               "fadeOutDelay": 0,
               "fadeOutDuration": 0,
               "targetFadeInDelay": 0,
@@ -1465,7 +1465,7 @@
           ]
         },
         {
-          "time": 164000,
+          "time": 164,
           "jumpTo": [
             {
               "targetTrackId": "主菜单",
