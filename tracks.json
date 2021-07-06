@@ -1316,27 +1316,35 @@
       "checkPoints": [
         {
           "time": 0,
-          "jumpTo": [
+          "defaultDestinations": [
             {
-              "targetTrackId": "主菜单",
-              "targetOffset": 4,
-              "fadeOutDelay": 0,
-              "fadeOutDuration": 0,
-              "targetFadeInDelay": 0,
-              "targetFadeInDuration": 0
+              "jumpTo": [
+                {
+                  "targetTrackId": "主菜单",
+                  "targetOffset": 4,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 0,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
             }
           ]
         },
         {
           "time": 162,
-          "jumpTo": [
+          "defaultDestinations": [
             {
-              "targetTrackId": "主菜单",
-              "targetOffset": 0,
-              "fadeOutDelay": 0.5,
-              "fadeOutDuration": 0,
-              "targetFadeInDelay": 0,
-              "targetFadeInDuration": 0
+              "jumpTo": [
+                {
+                  "targetTrackId": "主菜单",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0.5,
+                  "fadeOutDuration": 0,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
             }
           ]
         }
@@ -1453,27 +1461,35 @@
       "checkPoints": [
         {
           "time": 0,
-          "jumpTo": [
+          "defaultDestinations": [
             {
-              "targetTrackId": "主菜单X",
-              "targetOffset": 162,
-              "fadeOutDelay": 0,
-              "fadeOutDuration": 0,
-              "targetFadeInDelay": 0,
-              "targetFadeInDuration": 0
+              "jumpTo": [
+                {
+                  "targetTrackId": "主菜单X",
+                  "targetOffset": 162,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 0,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
             }
           ]
         },
         {
           "time": 164,
-          "jumpTo": [
+          "defaultDestinations": [
             {
-              "targetTrackId": "主菜单",
-              "targetOffset": 0,
-              "fadeOutDelay": 0,
-              "fadeOutDuration": 0,
-              "targetFadeInDelay": 0,
-              "targetFadeInDuration": 0
+              "jumpTo": [
+                {
+                  "targetTrackId": "主菜单",
+                  "targetOffset": 0,
+                  "fadeOutDelay": 0,
+                  "fadeOutDuration": 0,
+                  "targetFadeInDelay": 0,
+                  "targetFadeInDuration": 0
+                }
+              ]
             }
           ]
         }
