@@ -55,6 +55,7 @@
   "tracks": [
     {
       "name": "和平",
+      "order": 0,
       "musicId": "S-STYLE - 蓬莱伝説 -twilight style-",
       "startOffset": 0,
       "length": 273.554,
@@ -310,6 +311,7 @@
     },
     {
       "name": "结束",
+      "order": 1,
       "musicId": "PHOENIX Project - Conclusion",
       "startOffset": 0,
       "length": 318.243,
@@ -352,6 +354,7 @@
     },
     {
       "name": "战斗",
+      "order": 2,
       "musicId": "EastNewSound - きりん - ひとしずく",
       "startOffset": 0,
       "length": 421.251,
@@ -702,6 +705,7 @@
     },
     {
       "name": "战斗或劣势",
+      "order": 3,
       "musicId": "EastNewSound - asterisk",
       "startOffset": 0,
       "length": 345.26,
@@ -1036,6 +1040,7 @@
     },
     {
       "name": "战斗或优势",
+      "order": 4,
       "musicId": "sound sepher - 不思议の国のアリス",
       "startOffset": 0,
       "length": 269.871,
@@ -1308,6 +1313,7 @@
     },
     {
       "name": "主菜单",
+      "order": 5,
       "musicId": "森の民やむぅ - Satori March",
       "startOffset": 0,
       "length": 164.075,
@@ -1453,6 +1459,7 @@
     },
     {
       "name": "主菜单X",
+      "order": 6,
       "musicId": "森の民やむぅ - Satori March",
       "startOffset": 0,
       "length": 164.075,
